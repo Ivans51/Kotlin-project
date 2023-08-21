@@ -33,7 +33,7 @@ class Basic {
         cardNames[0] = "Ace"
         println(cardNames[0])
 
-        /* Mutables */
+        /* Mutable */
         val cards = mutableListOf("Jack", "Queen", "King")
 
         cards.add("Ace") // Jack, Queen, King, Ace
