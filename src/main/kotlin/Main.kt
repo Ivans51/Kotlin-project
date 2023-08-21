@@ -1,6 +1,10 @@
 import src.Basic
 
 fun main(args: Array<String>) {
+    basic()
+}
+
+private fun basic() {
     val basic = Basic()
     basic.typeData()
     basic.typeCollections()
